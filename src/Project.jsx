@@ -1,13 +1,16 @@
 import placeHolder from "./photos/placeholder.png";
-export default function Project({title,image={placeHolder},description,skills,gitLink,projectLink}) {
+export default function Project({
+	title,
+	image = placeHolder,
+	description,
+	skills,
+	gitLink,
+	projectLink,
+}) {
 	return (
-		<div className=" mb-5 text-box col-lg-6 col-md-12">
+		<div className=" mb-5 text-box col-xl-5 col-md-12">
 			{" "}
-			<img
-				src={image}
-				alt="placeholder"
-				className="  card-img-top "
-			></img>
+			<img src={image} alt="placeholder" className="  card-img-top "></img>
 			<h3 className="card-title">{title}</h3>
 			<p className="card-text">
 				{description}
