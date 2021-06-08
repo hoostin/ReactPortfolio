@@ -4,6 +4,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import NavBar from "./NavBar";
+import Portfolio from "./Portfolio";
 
 /**
  * Defines all the routes for the application.
@@ -22,6 +23,7 @@ function Routes() {
 				<NavBar />
 				<Home />
 				<About />
+				<Portfolio />
 			</Route>
 		</Switch>
 	);

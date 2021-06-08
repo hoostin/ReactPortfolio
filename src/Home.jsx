@@ -7,14 +7,14 @@ export default function Home() {
 			<Jumbotron>
 				{/* <div className="container"> */}
 				<div className=" row col-12">
-					<div className=" text-white col-6 ">
+					<div className=" text-white col-xl-6 col-lg-12">
 						<img
 							className=" text-white col-12 "
 							src={profileSquare}
 							alt="test pic"
 						></img>
 					</div>
-					<article className=" text-white col-6 text-box">
+					<article className=" text-white col-xl-6 col-lg-12 text-box">
 						<h2>Hello World, I am Austin Mckee</h2>
 						<p>
 							I am currently located in the Portland, Oregon metro area. I was
