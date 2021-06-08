@@ -24,12 +24,12 @@ export default function Home() {
 						</p>
 						<p>
 							{" "}
-							Some background on me: I am a former Portland State Student that
-							studied Computer Science and has the equivalent credits to a
-							Computer Science minor. I am a current ThinkFul Engineering
-							Immersion Student who has completed the Node.js section and is
-							currently learning React.js. Current Lead Software Engineer for
-							Startup{" "}
+							Some background on me: <br></br>I am a former Portland State
+							Student that studied Computer Science and has the equivalent
+							credits to a Computer Science minor. I recently graduated ThinkFul
+							Engineering Immersion program where I learned full-stack
+							development in the PERN Stack (Postgres, Express, React, Node).
+							Current Lead Software Engineer for Startup{" "}
 							<a href="https://www.raedam.co/services" target="_blank">
 								Raedam
 							</a>{" "}

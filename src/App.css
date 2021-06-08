@@ -58,4 +58,52 @@
 
 .text-box {
 	background-color: rgba(0, 0, 0, 0.33);
+	font-family: Verdana, sans-serif;
+}
+
+.text-box h2 {
+	font-size: 36px;
+}
+.text-box p {
+	font-size: 22px;
+}
+a:link {
+	color: #ededed;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #ededed;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #979797;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #979797;
+	text-decoration: underline;
+}
+a:active {
+	color: #ededed;
+	text-decoration: underline;
+}
+header {
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: Verdana, sans-serif;
+	height: 80px;
+	width: 100%;
+}
+header nav ul {
+	display: flex;
+
+	list-style: none;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 24px;
 }
