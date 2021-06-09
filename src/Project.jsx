@@ -1,4 +1,5 @@
 import placeHolder from "./photos/placeholder.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 export default function Project({
 	title,
 	image = placeHolder,
@@ -8,7 +9,7 @@ export default function Project({
 	projectLink,
 }) {
 	return (
-		<div className=" mb-5 text-box col-xl-5 col-md-12">
+		<div className="m-flex mb-5 text-box col-xl-6 col-md-12  ">
 			{" "}
 			<img src={image} alt="placeholder" className="  card-img-top "></img>
 			<h3 className="card-title">{title}</h3>
