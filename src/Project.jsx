@@ -9,7 +9,7 @@ export default function Project({
 	projectLink,
 }) {
 	return (
-		<div className="m-flex mb-5 text-box col-xl-6 col-md-12  ">
+		<div className="m-flex mb-5 text-box col-xl-6 col-md-12  project-border ">
 			{" "}
 			<img src={image} alt="placeholder" className="  card-img-top "></img>
 			<h3 className="card-title">{title}</h3>
@@ -25,9 +25,13 @@ export default function Project({
 				</a>
 				<br />
 				Project Link:
-				<a href={projectLink} target="_blank">
-					Link
-				</a>
+				{projectLink ? (
+					<a href={projectLink} target="_blank">
+						Link
+					</a>
+				) : (
+					" Coming Soon"
+				)}
 				<br />
 			</p>
 		</div>

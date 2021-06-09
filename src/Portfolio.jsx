@@ -6,7 +6,7 @@ export default function Portfolio() {
 			<div className=" row  text-white">
 				<article className="text-box ">
 					<h2>Portfolio/Projects</h2>
-					<div>
+					<div className="row">
 						{projects.map((theProject) => (
 							<Project
 								title={theProject.title}
