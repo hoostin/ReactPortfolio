@@ -16,7 +16,7 @@ export default function NavBar() {
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse
 					id="responsive-navbar-nav"
-					className="navbar-light nav-bar"
+					className="navbar-light nav-bar "
 				>
 					<Nav className="mr-auto text-white">
 						<Nav.Link className="text-white nav-bar-item" href="#top">

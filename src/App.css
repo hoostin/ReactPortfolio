@@ -111,3 +111,10 @@ main {
 	color: #979797;
 	text-decoration: none;
 }
+@media all and (max-width: 990px) {
+	.nav-bar {
+		background-color: rgba(0, 0, 0, 0.6);
+		text-align: center;
+		margin: 18px 10px 10px 10px;
+	}
+}
