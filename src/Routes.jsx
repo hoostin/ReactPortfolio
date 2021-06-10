@@ -21,9 +21,11 @@ function Routes() {
 			</Route>
 			<Route path="/home">
 				<NavBar />
-				<Home />
-				<About />
-				<Portfolio />
+				<main >
+					<Home />
+					<About />
+					<Portfolio />
+				</main>
 			</Route>
 		</Switch>
 	);

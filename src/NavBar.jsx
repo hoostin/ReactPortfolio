@@ -1,8 +1,8 @@
 export default function NavBar() {
 	return (
-		<header className="text-white">
+		<header className="text-white" >
 			<nav className="container">
-				<div className="row ">
+				<div className="row col-6">
 					<h1 className="col-4">Austin Mckee</h1>
 
 					<ul className="col-8 " id="navMenu">

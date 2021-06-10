@@ -95,6 +95,8 @@ header {
 	font-family: Verdana, sans-serif;
 	height: 80px;
 	width: 100%;
+	position: fixed;
+	margin-top: -80px;
 }
 header nav ul {
 	display: flex;
@@ -110,4 +112,7 @@ header nav ul li a {
 
 .project-border {
 	border: rgba(255, 255, 255, 0.1) solid 5px;
+}
+main {
+	margin-top: 80px;
 }

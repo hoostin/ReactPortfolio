@@ -1,5 +1,6 @@
 import placeHolder from "./photos/placeholder.png";
 import dashboard from "./photos/Dashboard.png";
+import flashcards from "./photos/flashcards.jpg";
 export const projects = [
 	{
 		title: "Periodic Tables",
@@ -12,10 +13,9 @@ export const projects = [
 	},
 	{
 		title: "Flashcards",
-		image: null,
-		description: `This is a description of the Project  I built. This will contain the project’s purpose, 
-        your approach to building the project and who it’s for, and what you learned from building it.`,
-		skills: "Skills here",
+		image: flashcards,
+		description: `Web application that allows you to create and manage decks of flashcards.`,
+		skills: "React/Bootstrap",
 		gitLink: "https://github.com/hoostin/Flashcards",
 		projectLink: null,
 	},
@@ -25,9 +25,9 @@ export const projects = [
 		description: `Who doesn't love a fun recursion easter egg.`,
 		skills: "React/Bootstrap/Css",
 		gitLink: "https://github.com/hoostin/ReactPortfolio",
-		projectLink: "https://www.austinmckee.net",
+		projectLink: "//www.austinmckee.net",
 	},
-    // {
+	// {
 	// 	title: "Raedam",
 	// 	image: null,
 	// 	description: `Who doesn't love a fun recursion easter egg.`,
