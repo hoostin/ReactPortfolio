@@ -78,10 +78,6 @@ a:visited {
 	font-weight: bold;
 }
 
-header a:hover {
-	color: #979797;
-	text-decoration: underline;
-}
 p a:hover {
 	color: #979797;
 	text-decoration: underline;
@@ -98,13 +94,8 @@ header {
 	position: fixed;
 	margin-top: -80px;
 }
-header nav ul {
-	display: flex;
 
-	list-style: none;
-}
-
-header nav ul li a {
+.nav-bar {
 	text-decoration: none;
 	margin-left: 20px;
 	font-size: 24px;
@@ -115,4 +106,8 @@ header nav ul li a {
 }
 main {
 	margin-top: 80px;
+}
+.nav-bar-item :hover {
+	color: #979797;
+	text-decoration: none;
 }
