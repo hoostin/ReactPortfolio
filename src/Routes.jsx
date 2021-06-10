@@ -2,6 +2,7 @@ import React from "react";
 
 import { Redirect, Route, Switch } from "react-router-dom";
 import About from "./About";
+import Contact from "./Contact";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import Portfolio from "./Portfolio";
@@ -21,10 +22,11 @@ function Routes() {
 			</Route>
 			<Route path="/home">
 				<NavBar />
-				<main >
+				<main>
 					<Home />
 					<About />
 					<Portfolio />
+					<Contact />
 				</main>
 			</Route>
 		</Switch>
