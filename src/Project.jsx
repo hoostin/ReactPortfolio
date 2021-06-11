@@ -27,6 +27,7 @@ export default function Project({
 				Project Link:
 				{projectLink ? (
 					<a href={projectLink} target="_blank">
+						{" "}
 						Link
 					</a>
 				) : (

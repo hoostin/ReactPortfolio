@@ -9,18 +9,18 @@ export default function Footer() {
 					pathname: "https://www.linkedin.com/in/the-austin-mckee/",
 				}}
 				target="_blank"
-				className="contact-link"
+				className="contact-link "
 			>
-				<img src={Linkedin} width="64px"></img>
+				<img className= "m-3" src={Linkedin} width="64px"></img>
 			</Link>
 			<Link
 				to={{
 					pathname: "https://github.com/hoostin",
 				}}
 				target="_blank"
-				className="contact-link"
+				className="contact-link mt-5"
 			>
-				<img src={Github} width="64px"></img>
+				<img className= "m-3" src={Github} width="64px"></img>
 			</Link>
 			austinmckee@hotmail.com
 		</div>
