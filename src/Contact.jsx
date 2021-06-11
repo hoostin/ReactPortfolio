@@ -1,10 +1,12 @@
 import Linkedin from "./photos/Linkedin.png";
+import Github from "./photos/Github.png";
+import { Link } from "react-router-dom";
 export default function Contact() {
 	return (
 		<section className="container mt-5 " id="contact">
 			<div className=" row  text-white">
 				<article className="text-box ">
-					<h2>Contact</h2>
+					<h2>Contact Form</h2>
 					<div className="row">
 						<form action="https://formspree.io/f/mqkgorlk" method="POST">
 							<label for="user-name">Name:</label>
@@ -29,19 +31,12 @@ export default function Contact() {
 								id="user-message"
 								name="message"
 							></textarea>
-							<button className="btn btn-success" type="submit">
+							<button className="mt-2 btn btn-success" type="submit">
 								Submit
 							</button>
 						</form>
 					</div>
-					<div className="mt-3">
-						<a
-							href="https://www.linkedin.com/in/the-austin-mckee/"
-							target="_blank"
-						>
-							<img src={Linkedin} width="64px"></img>
-						</a>
-					</div>
+					
 				</article>
 			</div>
 		</section>

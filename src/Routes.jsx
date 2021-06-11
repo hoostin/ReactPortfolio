@@ -3,6 +3,7 @@ import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import Home from "./Home";
 import NavBar from "./NavBar";
 import Portfolio from "./Portfolio";
@@ -27,6 +28,7 @@ function Routes() {
 					<About />
 					<Portfolio />
 					<Contact />
+					<Footer />
 				</main>
 			</Route>
 		</Switch>
