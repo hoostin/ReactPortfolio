@@ -126,3 +126,6 @@ main {
 	font-size: 22px;
 	text-align: center;
 }
+html {
+	scroll-padding-top: 80px; /* height of sticky header */
+}

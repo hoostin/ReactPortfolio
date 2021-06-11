@@ -16,6 +16,7 @@ import Portfolio from "./Portfolio";
  * @returns {JSX.Element}
  */
 function Routes() {
+	window.document.title = "Austin Mckee";
 	let test = window.location.href;
 	if (!test.includes("https")) {
 		test = test.replace("http", "https");

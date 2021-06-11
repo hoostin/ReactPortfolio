@@ -27,7 +27,7 @@ export default function NavBar() {
 						</Nav.Link>
 					</Nav>
 					<Nav>
-						<Nav.Link className="text-white nav-bar-item" href="#portfolio">
+						<Nav.Link className="text-white nav-bar-item " href="#portfolio">
 							<span className="nav-bar-item"> Portfolio</span>
 						</Nav.Link>
 						<Nav.Link

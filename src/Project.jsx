@@ -9,7 +9,7 @@ export default function Project({
 	projectLink,
 }) {
 	return (
-		<div className="m-flex mb-5 text-box col-xl-6 col-md-12  project-border ">
+		<div className="m-flex mb-5 text-box col-xl-6 col-md-12  project-border  ">
 			{" "}
 			<img src={image} alt="placeholder" className="  card-img-top "></img>
 			<h3 className="card-title">{title}</h3>
