@@ -2,12 +2,11 @@ import { Jumbotron } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profileSquare from "./photos/profile_square.jpg";
 export default function Home() {
-	
 	return (
 		<section className="container">
 			<Jumbotron>
 				{/* <div className="container"> */}
-				<div className=" row col-12">
+				<div className=" row ">
 					<div className=" text-white col-xl-6 col-lg-12">
 						<img
 							className=" text-white col-12 "

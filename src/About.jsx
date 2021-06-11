@@ -1,7 +1,7 @@
 export default function About() {
 	return (
 		<section className="container mt-5" id="about">
-			<div className=" row col-12 text-white">
+			<div className=" row  text-white">
 				<article className="text-box ">
 					<h2>More About Me</h2>
 					<p>

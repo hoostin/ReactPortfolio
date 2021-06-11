@@ -1,6 +1,3 @@
-import Linkedin from "./photos/Linkedin.png";
-import Github from "./photos/Github.png";
-import { Link } from "react-router-dom";
 export default function Contact() {
 	return (
 		<section className="container mt-5 " id="contact">
@@ -36,7 +33,6 @@ export default function Contact() {
 							</button>
 						</form>
 					</div>
-					
 				</article>
 			</div>
 		</section>
