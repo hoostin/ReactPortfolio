@@ -1,6 +1,7 @@
 import placeHolder from "./photos/placeholder.png";
 import dashboard from "./photos/Dashboard.png";
 import flashcards from "./photos/flashcards.jpg";
+import portfolio from "./photos/portfolio.png"  
 export const projects = [
 	{
 		title: "Periodic Tables",
@@ -21,7 +22,7 @@ export const projects = [
 	},
 	{
 		title: "Portfolio Website",
-		image: null,
+		image: portfolio,
 		description: `Who doesn't love a fun recursion easter egg.`,
 		skills: "React/Bootstrap/Css",
 		gitLink: "https://github.com/hoostin/ReactPortfolio",
