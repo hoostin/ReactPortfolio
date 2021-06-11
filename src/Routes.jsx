@@ -16,6 +16,12 @@ import Portfolio from "./Portfolio";
  * @returns {JSX.Element}
  */
 function Routes() {
+	let test = window.location.href;
+	if (!test.includes("https")) {
+		test = test.replace("http", "https");
+		window.location.href = test;
+	}
+
 	return (
 		<Switch>
 			<Route exact={true} path="/">

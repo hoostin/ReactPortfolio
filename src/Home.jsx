@@ -2,6 +2,7 @@ import { Jumbotron } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profileSquare from "./photos/profile_square.jpg";
 export default function Home() {
+	
 	return (
 		<section className="container">
 			<Jumbotron>
