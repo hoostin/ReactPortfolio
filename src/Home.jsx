@@ -1,6 +1,6 @@
 import { Jumbotron } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import profileSquare from "./photos/profile_square.jpg";
+import profileSquare from "./photos/profile_square1.jpg";
 export default function Home() {
 	return (
 		<section className="container">
@@ -17,24 +17,20 @@ export default function Home() {
 					<article className=" text-white col-md-12 col-lg-6 col-xl-6 text-box">
 						<h2>Hello World, I am Austin Mckee</h2>
 						<p>
-							I am currently located in the Portland, Oregon metro area. I was
-							born and raised in Oregon, I grew up in the Tigard Tualatin School
-							District. I graduated from Tigard High School in 2017 and have
-							stayed in Oregon since then.
+							I am currently located in the Portland metro area where I was born
+							and raised.
 						</p>
 						<p>
 							{" "}
 							Some background on me: <br></br>I am a former Portland State
 							Student that studied Computer Science and has the equivalent
-							credits to a Computer Science minor. I recently graduated ThinkFul
-							Engineering Immersion program where I learned full-stack
+							credits to a Computer Science minor. I graduated ThinkFul
+							Engineering Immersion program in 2021 where I learned full-stack
 							development in the PERN Stack (Postgres, Express, React, Node).
-							Current Lead Software Engineer for Startup{" "}
-							<a href="https://www.raedam.co/services" target="_blank">
-								Raedam
-							</a>{" "}
-							which is a company that provides a modern solution to how people
-							find parking.
+							During that period, I worked as a Software Engineer at Raedam, a
+							startup aiming to revolutionize parking management. I currently
+							work for Skillz as a SDK Engineer a company that is promoting
+							competition through skill-based gaming for real world prizes.
 						</p>
 					</article>
 					{/* </div> */}

@@ -1,8 +1,16 @@
-import placeHolder from "./photos/placeholder.png";
+import parkingManager from "./photos/parkingManager.png";
 import dashboard from "./photos/Dashboard.png";
 import flashcards from "./photos/flashcards.jpg";
-import portfolio from "./photos/portfolio.png"  
+import portfolio from "./photos/portfolio.png";
 export const projects = [
+	{
+		title: "Parking Manager",
+		image: parkingManager,
+		description: `Web appication to manage a parking stucture in realtime.\n Use Guest Login:\n Email: guest@ryankirkpatrick.net\n Password: guest1234`,
+		skills: "React/Bootstrap/Css",
+		gitLink: "https://github.com/RKirkpatrick/Generic-Sensor-Display",
+		projectLink: "https://parking.ryankirkpatrick.net/",
+	},
 	{
 		title: "Periodic Tables",
 		image: dashboard,
@@ -28,12 +36,4 @@ export const projects = [
 		gitLink: "https://github.com/hoostin/ReactPortfolio",
 		projectLink: "//www.austinmckee.net",
 	},
-	// {
-	// 	title: "Raedam",
-	// 	image: null,
-	// 	description: `Who doesn't love a fun recursion easter egg.`,
-	// 	skills: "React/Bootstrap/Css",
-	// 	gitLink: "https://github.com/hoostin/ReactPortfolio",
-	// 	projectLink: "https://www.austinmckee.net",
-	// },
 ];
